@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/atdetquizan/nation-code-lib/compare/v1.1.3...v1.1.4) (2025-03-26)
+
+
+### Bug Fixes
+
+* mejoras de semantic-release ([3279245](https://github.com/atdetquizan/nation-code-lib/commit/3279245b214fb4d3b6718b1d321634f6fdd2f0a0))
+
 ## [1.1.3](https://github.com/atdetquizan/nation-code-lib/compare/v1.1.2...v1.1.3) (2025-03-26)
 
 
