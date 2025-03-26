@@ -2,29 +2,33 @@ name: Release
 on:
   push:
     branches:
-      - main
+      - main  # Asegúrate de que esto coincida con tu configuración de rama
 
 permissions:
-  contents: read # for checkout
+  contents: read  # Para checkout
+  issues: write    # Para comentar sobre los issues
+  pull-requests: write  # Para comentar sobre los pull requests
+  id-token: write  # Habilitar uso de OIDC para npm
 
 jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
     permissions:
-      contents: write # to be able to publish a GitHub release
-      issues: write # to be able to comment on released issues
-      pull-requests: write # to be able to comment on released pull requests
-      id-token: write # to enable use of OIDC for npm provenance
+      contents: write  # Permiso para publicar el release en GitHub
+      issues: write    # Para poder comentar en issues
+      pull-requests: write  # Para poder comentar en pull requests
+      id-token: write  # Habilitar uso de OIDC para npm
     steps:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '20'
-      - run: npm ci
-      - run: npx semantic-release
+
+      - run: npm ci  # Instalar dependencias
+
       - name: Release
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npx semantic-release
+        run: npx semantic-release  # Ejecutar semantic-release
