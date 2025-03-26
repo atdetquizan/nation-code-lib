@@ -1,12 +1,24 @@
 {
-    "branches": ["main"],
+    "branches": [
+        "main"
+    ],
     "repositoryUrl": "https://github.com/atdetquizan/nation-code-lib",
     "plugins": [
-      "@semantic-release/commit-analyzer",
-      "@semantic-release/release-notes-generator",
-      "@semantic-release/changelog",
-      "@semantic-release/git",
-      "@semantic-release/github"
-    ]
-  }
-  
+        "@semantic-release/commit-analyzer",
+        "@semantic-release/release-notes-generator",
+        "@semantic-release/changelog",
+        "@semantic-release/git",
+        "@semantic-release/github",
+        "@semantic-release/exec"
+    ],
+    "exec": {
+      "publishCmd": "npm version ${nextRelease.version} --no-git-tag-version"
+    },
+    "git": {
+      "assets": [
+        "package.json",
+        "package-lock.json",
+        "CHANGELOG.md"
+      ]
+    }
+}
