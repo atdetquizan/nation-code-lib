@@ -9,11 +9,8 @@
         "@semantic-release/changelog",
         "@semantic-release/git",
         "@semantic-release/github",
-        "@semantic-release/exec"
+        "@semantic-release/npm"
     ],
-    "exec": {
-        "publishCmd": "npm version ${nextRelease.version} --no-git-tag-version"
-    },
     "git": {
         "assets": [
             "package.json",
