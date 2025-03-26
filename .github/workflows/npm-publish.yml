@@ -31,3 +31,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
+      - name: Push changes to repository
+        run: |
+          git config --global user.name "your-name"
+          git config --global user.email "your-email@example.com"
+          git add .
+          git commit -m "chore(release): ${nextRelease.version}"
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
