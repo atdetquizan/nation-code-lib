@@ -1,38 +1,21 @@
-# This workflow will run tests using node and then publish a package to GitHub Packages when a release is created
-# For more information see: https://docs.github.com/en/actions/publishing-packages/publishing-nodejs-packages
-
-name: Node.js Package
+name: Release
 
 on:
   push:
-    tags:
-      - 'v*'  # Esto asegura que el flujo se ejecute cuando se empuja un tag con 'v*'
-  release:
-    types: [created]  # Esto asegura que se ejecute cuando se crea un release en GitHub
+    branches:
+      - main
 
 jobs:
-  build:
+  release:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4  # Clona el repositorio
-      - uses: actions/setup-node@v4  # Configura Node.js
+      - uses: actions/checkout@v2
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
         with:
-          node-version: 20  # Establece la versión de Node.js que deseas usar
-      - run: npm install  # Instala las dependencias necesarias
-      - run: npm run build  # Ejecuta el build
-      - run: npm run test:coverage  # Ejecuta las pruebas con cobertura
-
-  publish-npm:
-    needs: build  # Este trabajo depende del trabajo 'build' (es decir, debe completarse antes de ejecutarse)
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4  # Clona nuevamente el repositorio
-      - uses: actions/setup-node@v4  # Configura Node.js
-        with:
-          node-version: 20  # Establece la versión de Node.js que deseas usar
-          registry-url: https://registry.npmjs.org/  # Asegura que el registro de npm esté configurado
-      - run: npm install  # Instala las dependencias necesarias (en caso de que se necesiten para la publicación)
-      - run: npm run build  # Vuelve a ejecutar el build por si acaso
-      - run: npm publish  # Publica el paquete en npm
+          node-version: '16'
+      - run: npm ci
+      - run: npx semantic-release
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.npm_token }}  # Usa el token de autenticación de npm para publicar
+          GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
