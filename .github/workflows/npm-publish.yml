@@ -6,31 +6,33 @@ name: Node.js Package
 on:
   push:
     tags:
-      - 'v*'
+      - 'v*'  # Esto asegura que el flujo se ejecute cuando se empuja un tag con 'v*'
   release:
-    types: [created]
+    types: [created]  # Esto asegura que se ejecute cuando se crea un release en GitHub
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v4  # Clona el repositorio
+      - uses: actions/setup-node@v4  # Configura Node.js
         with:
-          node-version: 20
-      - run: npm run build
-      - run: npm run test:coverage
+          node-version: 20  # Establece la versión de Node.js que deseas usar
+      - run: npm install  # Instala las dependencias necesarias
+      - run: npm run build  # Ejecuta el build
+      - run: npm run test:coverage  # Ejecuta las pruebas con cobertura
 
   publish-npm:
-    needs: build
+    needs: build  # Este trabajo depende del trabajo 'build' (es decir, debe completarse antes de ejecutarse)
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v4  # Clona nuevamente el repositorio
+      - uses: actions/setup-node@v4  # Configura Node.js
         with:
-          node-version: 20
-          registry-url: https://registry.npmjs.org/
-      - run: npm run build
-      - run: npm publish
+          node-version: 20  # Establece la versión de Node.js que deseas usar
+          registry-url: https://registry.npmjs.org/  # Asegura que el registro de npm esté configurado
+      - run: npm install  # Instala las dependencias necesarias (en caso de que se necesiten para la publicación)
+      - run: npm run build  # Vuelve a ejecutar el build por si acaso
+      - run: npm publish  # Publica el paquete en npm
         env:
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+          NODE_AUTH_TOKEN: ${{ secrets.npm_token }}  # Usa el token de autenticación de npm para publicar
