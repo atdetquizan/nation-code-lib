@@ -1,3 +1,16 @@
+## [1.1.5](https://github.com/atdetquizan/nation-code-lib/compare/v1.1.4...v1.1.5) (2025-03-26)
+
+
+### Bug Fixes
+
+* ci ([6ec2a43](https://github.com/atdetquizan/nation-code-lib/commit/6ec2a430818978c05959941bdd66fcfe04ff48db))
+* ci ([2cd7728](https://github.com/atdetquizan/nation-code-lib/commit/2cd7728daa05adf79d762949d05fc1d617842774))
+* ci ([501567d](https://github.com/atdetquizan/nation-code-lib/commit/501567dc5d2de39318f00bd74e3e988edd15f79c))
+* ci ([753758a](https://github.com/atdetquizan/nation-code-lib/commit/753758a2c9d33cfdc9cb96a6fdd595b0c3d7fc41))
+* ci ([b2589ab](https://github.com/atdetquizan/nation-code-lib/commit/b2589ab9bd5a834f5345b59d3e2ceef9fe334c4e))
+* CI Mejoras ([db0dc04](https://github.com/atdetquizan/nation-code-lib/commit/db0dc04dd1fa603be567be8877dfe32c54104040))
+* CI Mejoras ([e4bad23](https://github.com/atdetquizan/nation-code-lib/commit/e4bad23cee7e65d96c4f13a4d80acd237b92d2e5))
+
 ## [1.1.4](https://github.com/atdetquizan/nation-code-lib/compare/v1.1.3...v1.1.4) (2025-03-26)
 
 
