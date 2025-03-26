@@ -1,3 +1,10 @@
+## [1.1.7](https://github.com/atdetquizan/nation-code-lib/compare/v1.1.6...v1.1.7) (2025-03-26)
+
+
+### Bug Fixes
+
+* ci ([caab488](https://github.com/atdetquizan/nation-code-lib/commit/caab4888d393dd145e7cc20635940482a0fcec06))
+
 ## [1.1.6](https://github.com/atdetquizan/nation-code-lib/compare/v1.1.5...v1.1.6) (2025-03-26)
 
 
