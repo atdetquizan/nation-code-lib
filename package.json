@@ -1,6 +1,6 @@
 {
   "name": "nation-code-lib",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "library of codes countries and flags",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

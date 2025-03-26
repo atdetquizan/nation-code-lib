@@ -10,6 +10,8 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "skipLibCheck": true,
-    "strictNullChecks": false // Permite asignar `undefined` más flexible
+    "strictNullChecks": false, // Permite asignar `undefined` más flexible
+    "declaration": true, // Genera archivos .d.ts
+    "declarationMap": true // Genera source maps para los archivos .d.ts
   }
 }
