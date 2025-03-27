@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/atdetquizan/nation-code-lib/compare/v1.7.0...v1.8.0) (2025-03-27)
+
+
+### Features
+
+* estructura de interfaces y metodos ([bacd5da](https://github.com/atdetquizan/nation-code-lib/commit/bacd5da2525781b75a3743a28d67297f1512fe3a))
+
 # [1.7.0](https://github.com/atdetquizan/nation-code-lib/compare/v1.6.0...v1.7.0) (2025-03-27)
 
 
