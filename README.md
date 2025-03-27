@@ -36,6 +36,12 @@ const spanishSpeakingCountries = NationAPI.getCountriesByLanguage('Spanish');
 
 // Obtener países por moneda
 const euroCountries = NationAPI.getCountriesByCurrency('EUR');
+
+// Obtener datos simplificados de países
+const simplifiedCountries = NationAPI.getSimplifiedCountries();
+
+// Obtener datos simplificados con nombres oficiales en español
+const spanishCountries = NationAPI.getSimplifiedCountries('spa');
 ```
 
 ## API Reference
@@ -77,6 +83,11 @@ Retorna todos los países que usan un idioma específico.
 Retorna todos los países que usan una moneda específica.
 - **Parámetros:** `currencyCode` - Código de la moneda
 - **Retorna:** Array de países que usan la moneda especificada
+
+### `getSimplifiedCountries(lang?: string)`
+Retorna una versión simplificada de los datos de los países.
+- **Parámetros:** `lang` - (Opcional) Código del idioma para la traducción del nombre oficial (ej: 'spa' para español)
+- **Retorna:** Array de países con datos simplificados (MappedCountry[])
 
 ## Estructura de Datos
 

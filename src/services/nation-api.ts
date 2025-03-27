@@ -1,4 +1,4 @@
-import { Country } from '../interfaces';
+import { Country, MappedCountry } from '../interfaces';
 import countriesData from '../data/countries.json';
 
 /**
@@ -82,7 +82,7 @@ export class NationAPI {
   static getPhoneCode(code: string): string | undefined {
     const country = this.getCountryByCode(code);
     if (!country?.idd.root || !country.idd.suffixes) return undefined;
-    return `${country.idd.root}${country.idd.suffixes[0]}`;
+    return `${country.idd.root}${country.idd.suffixes.join('')}`;
   }
 
   /**
@@ -110,6 +110,34 @@ export class NationAPI {
       return Object.keys(country.currencies).some(
         (currency) => currency.toLowerCase() === currencyCode.toLowerCase()
       );
+    });
+  }
+
+  /**
+   * Returns a simplified version of countries data
+   * @param {string} [lang] - Optional language code for official name translation (e.g., 'spa' for Spanish)
+   * @returns {MappedCountry[]} Array of simplified country data
+   */
+  static getSimplifiedCountries(lang?: string): MappedCountry[] {
+    return this.countries.map(country => {
+      const officialName = lang && country.translations?.[lang]?.official 
+        ? country.translations[lang].official 
+        : country.name.official;
+
+      const phoneCode = country.idd.root && country.idd.suffixes
+        ? `${country.idd.root}${country.idd.suffixes[0]}`
+        : undefined;
+
+      return {
+        code: country.cca2,
+        name: country.name.common,
+        officialName,
+        flag: {
+          png: country.flags.png,
+          svg: country.flags.svg
+        },
+        phoneCode
+      };
     });
   }
 }

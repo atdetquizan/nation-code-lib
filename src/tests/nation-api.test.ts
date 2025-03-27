@@ -131,4 +131,58 @@ describe('NationAPI', () => {
       expect(countries).toHaveLength(0);
     });
   });
+
+  describe('getSimplifiedCountries', () => {
+    it('should return simplified country data', () => {
+      const countries = NationAPI.getSimplifiedCountries();
+      expect(countries.length).toBeGreaterThan(0);
+      
+      const peru = countries.find(country => country.code === 'PE');
+      expect(peru).toBeDefined();
+      expect(peru).toEqual({
+        code: 'PE',
+        name: 'Peru',
+        officialName: 'Republic of Peru',
+        flag: {
+          png: expect.stringContaining('pe.png'),
+          svg: expect.stringContaining('pe.svg')
+        },
+        phoneCode: '+51'
+      });
+    });
+
+    it('should return translated official names when language is provided', () => {
+      const countries = NationAPI.getSimplifiedCountries('spa');
+      const peru = countries.find(country => country.code === 'PE');
+      
+      expect(peru).toBeDefined();
+      expect(peru?.officialName).toBe('República de Perú');
+    });
+
+    it('should fallback to default official name when translation is not available', () => {
+      const countries = NationAPI.getSimplifiedCountries('invalid');
+      const peru = countries.find(country => country.code === 'PE');
+      
+      expect(peru).toBeDefined();
+      expect(peru?.officialName).toBe('Republic of Peru');
+    });
+
+    it('should handle countries with missing phone codes', () => {
+      const countries = NationAPI.getSimplifiedCountries();
+      const countryWithoutPhone = countries.find(country => !country.phoneCode);
+      
+      expect(countryWithoutPhone).toBeDefined();
+      expect(countryWithoutPhone?.phoneCode).toBeUndefined();
+    });
+
+    it('should include both PNG and SVG flag URLs', () => {
+      const countries = NationAPI.getSimplifiedCountries();
+      const peru = countries.find(country => country.code === 'PE');
+      
+      expect(peru?.flag).toEqual({
+        png: expect.stringContaining('.png'),
+        svg: expect.stringContaining('.svg')
+      });
+    });
+  });
 });
