@@ -121,18 +121,20 @@ export class NationAPI {
   static getSimplifiedCountries(lang?: string): SimplifiedCountry[] {
     return this.countries
       .map(country => {
-        const officialName = lang && country.translations?.[lang]?.official 
-          ? country.translations[lang].official 
-          : country.name.official;
+        const translation = lang && country.translations?.[lang];
+        const officialName = translation?.official ?? country.name.official;
+        const commonName = translation?.common ?? country.name.common;
 
         const phoneCode = country.idd.root && country.idd.suffixes
-          ? `${country.idd.root}${country.idd.suffixes.join('')}`
+          ? `${country.idd.root}${country.idd.suffixes[0]}`
           : undefined;
 
         return {
           code: country.cca2,
-          name: country.name.common,
-          officialName,
+          name: {
+            common: commonName,
+            official: officialName
+          },
           flag: {
             png: country.flags.png,
             svg: country.flags.svg
@@ -140,6 +142,6 @@ export class NationAPI {
           phoneCode
         };
       })
-      .sort((a, b) => a.name.localeCompare(b.name)); // Sort alphabetically by name
+      .sort((a, b) => a.name.common.localeCompare(b.name.common)); // Sort alphabetically by common name
   }
 }
