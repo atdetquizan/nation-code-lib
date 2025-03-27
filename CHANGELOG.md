@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/atdetquizan/nation-code-lib/compare/v1.3.0...v1.4.0) (2025-03-27)
+
+
+### Features
+
+* actualización de interfaces ([4cd3a90](https://github.com/atdetquizan/nation-code-lib/commit/4cd3a9009c9595785bca94fa6f84edcfabf72a16))
+
 # [1.3.0](https://github.com/atdetquizan/nation-code-lib/compare/v1.2.0...v1.3.0) (2025-03-27)
 
 
