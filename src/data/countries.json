@@ -29,7 +29,11 @@
             "root": "+5",
             "suffixes": [
                 "00"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "King Edward Point"
@@ -218,7 +222,11 @@
             "root": "+1",
             "suffixes": [
                 "473"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "St. George's"
@@ -428,7 +436,11 @@
             "root": "+4",
             "suffixes": [
                 "1"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Bern"
@@ -648,7 +660,11 @@
             "root": "+2",
             "suffixes": [
                 "32"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Freetown"
@@ -854,7 +870,11 @@
             "root": "+3",
             "suffixes": [
                 "6"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Budapest"
@@ -1070,7 +1090,11 @@
             "root": "+8",
             "suffixes": [
                 "86"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Taipei"
@@ -1271,7 +1295,11 @@
             "root": "+6",
             "suffixes": [
                 "81"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Mata-Utu"
@@ -1466,7 +1494,11 @@
             "root": "+1",
             "suffixes": [
                 "246"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Bridgetown"
@@ -1667,7 +1699,11 @@
             "root": "+6",
             "suffixes": [
                 "4"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Adamstown"
@@ -1862,7 +1898,11 @@
             "root": "+2",
             "suffixes": [
                 "25"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Yamoussoukro"
@@ -2074,7 +2114,11 @@
             "root": "+2",
             "suffixes": [
                 "16"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Tunis"
@@ -2285,7 +2329,11 @@
             "root": "+3",
             "suffixes": [
                 "9"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Rome"
@@ -2500,7 +2548,11 @@
             "root": "+2",
             "suffixes": [
                 "29"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Porto-Novo"
@@ -2709,7 +2761,11 @@
             "root": "+6",
             "suffixes": [
                 "2"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Jakarta"
@@ -2923,7 +2979,11 @@
             "root": "+2",
             "suffixes": [
                 "38"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Praia"
@@ -3130,7 +3190,11 @@
             "root": "+1",
             "suffixes": [
                 "869"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Basseterre"
@@ -3329,7 +3393,11 @@
             "root": "+8",
             "suffixes": [
                 "56"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Vientiane"
@@ -3548,7 +3616,11 @@
             "root": "+5",
             "suffixes": [
                 "99"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Kralendijk"
@@ -3750,7 +3822,11 @@
             "root": "+2",
             "suffixes": [
                 "56"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Kampala"
@@ -3961,7 +4037,11 @@
             "root": "+3",
             "suffixes": [
                 "76"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Andorra la Vella"
@@ -4173,7 +4253,11 @@
             "root": "+2",
             "suffixes": [
                 "57"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Gitega"
@@ -4423,7 +4507,11 @@
             "root": "+2",
             "suffixes": [
                 "7"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Pretoria",
@@ -4651,7 +4739,11 @@
             "root": "+3",
             "suffixes": [
                 "3"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Paris"
@@ -4881,7 +4973,11 @@
             "root": "+2",
             "suffixes": [
                 "18"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Tripoli"
@@ -5089,7 +5185,11 @@
             "root": "+5",
             "suffixes": [
                 "2"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Mexico City"
@@ -5304,7 +5404,11 @@
             "root": "+2",
             "suffixes": [
                 "41"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Libreville"
@@ -5519,7 +5623,11 @@
             "root": "+1",
             "suffixes": [
                 "670"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Saipan"
@@ -5716,7 +5824,11 @@
             "root": "+3",
             "suffixes": [
                 "89"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Skopje"
@@ -5936,7 +6048,11 @@
             "root": "+8",
             "suffixes": [
                 "6"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Beijing"
@@ -6161,7 +6277,11 @@
             "root": "+9",
             "suffixes": [
                 "67"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Sana'a"
@@ -6367,7 +6487,11 @@
             "root": "+5",
             "suffixes": [
                 "90"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Gustavia"
@@ -6577,7 +6701,11 @@
             "root": "+4",
             "suffixes": [
                 "4"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "St. Peter Port"
@@ -6781,7 +6909,11 @@
             "root": "+6",
             "suffixes": [
                 "77"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Honiara"
@@ -6981,7 +7113,11 @@
             "root": "+4",
             "suffixes": [
                 "779"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Longyearbyen"
@@ -7178,7 +7314,11 @@
             "root": "+2",
             "suffixes": [
                 "98"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Tórshavn"
@@ -7386,7 +7526,11 @@
             "root": "+9",
             "suffixes": [
                 "98"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Tashkent"
@@ -7603,7 +7747,11 @@
             "root": "+2",
             "suffixes": [
                 "0"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Cairo"
@@ -7815,7 +7963,11 @@
             "root": "+2",
             "suffixes": [
                 "21"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Dakar"
@@ -8035,7 +8187,11 @@
             "root": "+9",
             "suffixes": [
                 "4"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Sri Jayawardenepura Kotte"
@@ -8255,7 +8411,11 @@
             "root": "+9",
             "suffixes": [
                 "70"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Ramallah",
@@ -8464,7 +8624,11 @@
             "root": "+8",
             "suffixes": [
                 "80"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Dhaka"
@@ -8683,7 +8847,11 @@
             "root": "+5",
             "suffixes": [
                 "1"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Lima"
@@ -8913,7 +9081,11 @@
             "root": "+6",
             "suffixes": [
                 "5"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Singapore"
@@ -9117,7 +9289,11 @@
             "root": "+9",
             "suffixes": [
                 "0"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Ankara"
@@ -9344,7 +9520,11 @@
             "root": "+9",
             "suffixes": [
                 "3"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Kabul"
@@ -9557,7 +9737,11 @@
             "root": "+2",
             "suffixes": [
                 "97"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Oranjestad"
@@ -9760,7 +9944,11 @@
             "root": "+6",
             "suffixes": [
                 "82"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Avarua"
@@ -9959,7 +10147,11 @@
             "root": "+4",
             "suffixes": [
                 "4"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "London"
@@ -10176,7 +10368,11 @@
             "root": "+2",
             "suffixes": [
                 "60"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Lusaka"
@@ -10396,7 +10592,11 @@
             "root": "+3",
             "suffixes": [
                 "58"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Helsinki"
@@ -10611,7 +10811,11 @@
             "root": "+2",
             "suffixes": [
                 "27"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Niamey"
@@ -10825,7 +11029,11 @@
             "root": "+6",
             "suffixes": [
                 "1"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Flying Fish Cove"
@@ -11029,7 +11237,11 @@
             "root": "+6",
             "suffixes": [
                 "90"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Fakaofo"
@@ -11224,7 +11436,11 @@
             "root": "+2",
             "suffixes": [
                 "45"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Bissau"
@@ -11436,7 +11652,11 @@
             "root": "+9",
             "suffixes": [
                 "94"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Baku"
@@ -11650,7 +11870,11 @@
             "root": "+2",
             "suffixes": [
                 "62"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Saint-Denis"
@@ -11852,7 +12076,11 @@
             "root": "+2",
             "suffixes": [
                 "53"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Djibouti"
@@ -12065,7 +12293,11 @@
             "root": "+8",
             "suffixes": [
                 "50"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Pyongyang"
@@ -12287,7 +12519,11 @@
             "root": "+2",
             "suffixes": [
                 "30"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Port Louis"
@@ -12491,7 +12727,11 @@
             "root": "+1",
             "suffixes": [
                 "664"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Plymouth"
@@ -12688,7 +12928,11 @@
             "root": "+1",
             "suffixes": [
                 "340"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Charlotte Amalie"
@@ -12879,7 +13123,11 @@
             "root": "+5",
             "suffixes": [
                 "7"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Bogotá"
@@ -13089,7 +13337,11 @@
             "root": "+3",
             "suffixes": [
                 "0"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Athens"
@@ -13303,7 +13555,11 @@
             "root": "+3",
             "suffixes": [
                 "85"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Zagreb"
@@ -13523,7 +13779,11 @@
             "root": "+2",
             "suffixes": [
                 "12"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Rabat"
@@ -13737,7 +13997,11 @@
             "root": "+2",
             "suffixes": [
                 "13"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Algiers"
@@ -13936,7 +14200,12 @@
         "independent": false,
         "status": "officially-assigned",
         "unMember": false,
-        "idd": {},
+        "idd": {
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
+        },
         "altSpellings": [
             "AQ"
         ],
@@ -14126,7 +14395,11 @@
             "root": "+3",
             "suffixes": [
                 "1"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Amsterdam"
@@ -14342,7 +14615,11 @@
             "root": "+2",
             "suffixes": [
                 "49"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Khartoum"
@@ -14567,7 +14844,11 @@
             "root": "+6",
             "suffixes": [
                 "79"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Suva"
@@ -14774,7 +15055,11 @@
             "root": "+4",
             "suffixes": [
                 "23"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Vaduz"
@@ -14982,7 +15267,11 @@
             "root": "+9",
             "suffixes": [
                 "77"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Kathmandu"
@@ -15198,7 +15487,11 @@
             "suffixes": [
                 "787",
                 "939"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "San Juan"
@@ -15399,7 +15692,11 @@
             "root": "+9",
             "suffixes": [
                 "95"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Tbilisi"
@@ -15615,7 +15912,11 @@
             "root": "+9",
             "suffixes": [
                 "2"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Islamabad"
@@ -15830,7 +16131,11 @@
             "root": "+3",
             "suffixes": [
                 "77"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Monaco"
@@ -16040,7 +16345,11 @@
             "root": "+2",
             "suffixes": [
                 "67"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Gaborone"
@@ -16254,7 +16563,11 @@
             "root": "+9",
             "suffixes": [
                 "61"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Beirut"
@@ -16474,7 +16787,11 @@
             "root": "+6",
             "suffixes": [
                 "75"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Port Moresby"
@@ -16685,7 +17002,11 @@
             "root": "+2",
             "suffixes": [
                 "62"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Mamoudzou"
@@ -16886,7 +17207,11 @@
                 "809",
                 "829",
                 "849"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Santo Domingo"
@@ -17097,7 +17422,11 @@
             "root": "+6",
             "suffixes": [
                 "72"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Kingston"
@@ -17286,7 +17615,11 @@
             "root": "+4",
             "suffixes": [
                 "7"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "altSpellings": [
             "BV",
@@ -17463,7 +17796,11 @@
             "root": "+9",
             "suffixes": [
                 "74"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Doha"
@@ -17670,7 +18007,11 @@
             "root": "+2",
             "suffixes": [
                 "61"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Antananarivo"
@@ -17887,7 +18228,11 @@
             "root": "+9",
             "suffixes": [
                 "1"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "New Delhi"
@@ -18107,7 +18452,11 @@
             "root": "+9",
             "suffixes": [
                 "63"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Damascus"
@@ -18317,7 +18666,11 @@
             "root": "+3",
             "suffixes": [
                 "82"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Podgorica"
@@ -18538,7 +18891,11 @@
             "root": "+2",
             "suffixes": [
                 "68"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Mbabane"
@@ -18755,7 +19112,11 @@
             "root": "+5",
             "suffixes": [
                 "95"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Asunción"
@@ -18969,7 +19330,11 @@
             "root": "+5",
             "suffixes": [
                 "03"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "San Salvador"
@@ -19181,7 +19546,11 @@
             "root": "+3",
             "suffixes": [
                 "80"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Kyiv"
@@ -19403,7 +19772,11 @@
             "root": "+4",
             "suffixes": [
                 "4"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Douglas"
@@ -19639,7 +20012,11 @@
             "root": "+2",
             "suffixes": [
                 "64"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Windhoek"
@@ -19857,7 +20234,11 @@
             "root": "+9",
             "suffixes": [
                 "71"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Abu Dhabi"
@@ -20064,7 +20445,11 @@
             "root": "+3",
             "suffixes": [
                 "59"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Sofia"
@@ -20277,7 +20662,11 @@
             "root": "+2",
             "suffixes": [
                 "99"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Nuuk"
@@ -20481,7 +20870,11 @@
             "root": "+4",
             "suffixes": [
                 "9"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Berlin"
@@ -20703,7 +21096,11 @@
             "root": "+8",
             "suffixes": [
                 "55"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Phnom Penh"
@@ -20919,7 +21316,11 @@
             "root": "+9",
             "suffixes": [
                 "64"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Baghdad"
@@ -21135,7 +21536,11 @@
             "root": "+2",
             "suffixes": [
                 "62"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Port-aux-Français"
@@ -21331,7 +21736,11 @@
             "root": "+4",
             "suffixes": [
                 "6"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Stockholm"
@@ -21546,7 +21955,11 @@
             "root": "+5",
             "suffixes": [
                 "3"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Havana"
@@ -21754,7 +22167,11 @@
             "root": "+9",
             "suffixes": [
                 "96"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Bishkek"
@@ -21976,7 +22393,11 @@
                 "5",
                 "8",
                 "9"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Moscow"
@@ -22212,7 +22633,11 @@
             "root": "+6",
             "suffixes": [
                 "0"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Kuala Lumpur"
@@ -22423,7 +22848,11 @@
             "root": "+2",
             "suffixes": [
                 "39"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "São Tomé"
@@ -22631,7 +23060,11 @@
             "root": "+3",
             "suffixes": [
                 "57"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Nicosia"
@@ -22846,7 +23279,11 @@
             "root": "+1",
             "suffixes": [
                 ""
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Ottawa"
@@ -23064,7 +23501,11 @@
             "root": "+2",
             "suffixes": [
                 "65"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Lilongwe"
@@ -23273,7 +23714,11 @@
             "root": "+9",
             "suffixes": [
                 "66"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Riyadh"
@@ -23495,7 +23940,11 @@
             "root": "+3",
             "suffixes": [
                 "87"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Sarajevo"
@@ -23709,7 +24158,11 @@
             "root": "+2",
             "suffixes": [
                 "51"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Addis Ababa"
@@ -23925,7 +24378,11 @@
             "root": "+3",
             "suffixes": [
                 "4"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Madrid"
@@ -24143,7 +24600,11 @@
             "root": "+3",
             "suffixes": [
                 "86"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Ljubljana"
@@ -24356,7 +24817,11 @@
             "root": "+9",
             "suffixes": [
                 "68"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Muscat"
@@ -24564,7 +25029,11 @@
             "root": "+5",
             "suffixes": [
                 "08"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Saint-Pierre"
@@ -24765,7 +25234,11 @@
             "root": "+8",
             "suffixes": [
                 "53"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "altSpellings": [
             "MO",
@@ -24959,7 +25432,11 @@
             "root": "+3",
             "suffixes": [
                 "78"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "City of San Marino"
@@ -25174,7 +25651,11 @@
             "root": "+2",
             "suffixes": [
                 "66"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Maseru"
@@ -25389,7 +25870,11 @@
             "root": "+6",
             "suffixes": [
                 "92"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Majuro"
@@ -25596,7 +26081,11 @@
             "root": "+1",
             "suffixes": [
                 "721"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Philipsburg"
@@ -25795,7 +26284,11 @@
             "root": "+3",
             "suffixes": [
                 "54"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Reykjavik"
@@ -26011,7 +26504,11 @@
             "root": "+3",
             "suffixes": [
                 "52"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Luxembourg"
@@ -26231,7 +26728,11 @@
             "root": "+5",
             "suffixes": [
                 "4"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Buenos Aires"
@@ -26445,7 +26946,11 @@
             "root": "+1",
             "suffixes": [
                 "649"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Cockburn Town"
@@ -26643,7 +27148,11 @@
             "root": "+6",
             "suffixes": [
                 "74"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Yaren"
@@ -26847,7 +27356,11 @@
             "root": "+6",
             "suffixes": [
                 "1"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "West Island"
@@ -27054,7 +27567,11 @@
             "suffixes": [
                 "125288",
                 "125289"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "El Aaiún"
@@ -27251,7 +27768,11 @@
             "root": "+1",
             "suffixes": [
                 "767"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Roseau"
@@ -27452,7 +27973,11 @@
             "root": "+5",
             "suffixes": [
                 "06"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "San José"
@@ -27663,7 +28188,11 @@
             "root": "+6",
             "suffixes": [
                 "1"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Canberra"
@@ -27876,7 +28405,11 @@
             "root": "+6",
             "suffixes": [
                 "6"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Bangkok"
@@ -28096,7 +28629,11 @@
             "root": "+5",
             "suffixes": [
                 "09"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Port-au-Prince"
@@ -28316,7 +28853,11 @@
             "root": "+6",
             "suffixes": [
                 "88"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Funafuti"
@@ -28517,7 +29058,11 @@
             "root": "+5",
             "suffixes": [
                 "04"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Tegucigalpa"
@@ -28737,7 +29282,11 @@
             "root": "+2",
             "suffixes": [
                 "40"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Malabo"
@@ -28945,7 +29494,11 @@
             "root": "+1",
             "suffixes": [
                 "758"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Castries"
@@ -29145,7 +29698,11 @@
             "root": "+6",
             "suffixes": [
                 "89"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Papeetē"
@@ -29354,7 +29911,11 @@
             "root": "+3",
             "suffixes": [
                 "75"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Minsk"
@@ -29571,7 +30132,11 @@
             "root": "+3",
             "suffixes": [
                 "71"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Riga"
@@ -29788,7 +30353,11 @@
             "root": "+6",
             "suffixes": [
                 "80"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Ngerulmud"
@@ -29991,7 +30560,11 @@
             "root": "+5",
             "suffixes": [
                 "90"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Basse-Terre"
@@ -30196,7 +30769,11 @@
             "root": "+6",
             "suffixes": [
                 "3"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Manila"
@@ -30403,7 +30980,11 @@
             "root": "+3",
             "suffixes": [
                 "50"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Gibraltar"
@@ -30603,7 +31184,11 @@
             "root": "+4",
             "suffixes": [
                 "5"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Copenhagen"
@@ -30822,7 +31407,11 @@
             "root": "+2",
             "suffixes": [
                 "37"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Yaoundé"
@@ -31034,7 +31623,11 @@
             "root": "+2",
             "suffixes": [
                 "24"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Conakry"
@@ -31245,7 +31838,11 @@
             "root": "+9",
             "suffixes": [
                 "73"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Manama"
@@ -31449,7 +32046,11 @@
             "root": "+5",
             "suffixes": [
                 "97"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Paramaribo"
@@ -31675,7 +32276,11 @@
             "root": "+2",
             "suffixes": [
                 "43"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Kinshasa"
@@ -31900,7 +32505,11 @@
             "root": "+2",
             "suffixes": [
                 "52"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Mogadishu"
@@ -32119,7 +32728,11 @@
             "root": "+4",
             "suffixes": [
                 "20"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Prague"
@@ -32332,7 +32945,11 @@
             "root": "+6",
             "suffixes": [
                 "87"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Nouméa"
@@ -32541,7 +33158,11 @@
             "root": "+6",
             "suffixes": [
                 "78"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Port Vila"
@@ -32752,7 +33373,11 @@
             "suffixes": [
                 "90",
                 "47"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Jamestown"
@@ -32950,7 +33575,11 @@
             "root": "+2",
             "suffixes": [
                 "28"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Lomé"
@@ -33159,7 +33788,11 @@
             "root": "+1",
             "suffixes": [
                 "284"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Road Town"
@@ -33357,7 +33990,11 @@
             "root": "+2",
             "suffixes": [
                 "54"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Nairobi"
@@ -33575,7 +34212,11 @@
             "root": "+6",
             "suffixes": [
                 "83"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Alofi"
@@ -33759,7 +34400,12 @@
         "independent": false,
         "status": "officially-assigned",
         "unMember": false,
-        "idd": {},
+        "idd": {
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
+        },
         "altSpellings": [
             "HM",
             "Heard Island and McDonald Islands"
@@ -33947,7 +34593,11 @@
             "root": "+2",
             "suffixes": [
                 "50"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Kigali"
@@ -34159,7 +34809,11 @@
             "root": "+3",
             "suffixes": [
                 "72"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Tallinn"
@@ -34371,7 +35025,11 @@
             "root": "+4",
             "suffixes": [
                 "0"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Bucharest"
@@ -34586,7 +35244,11 @@
             "root": "+1",
             "suffixes": [
                 "868"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Port of Spain"
@@ -34788,7 +35450,11 @@
             "root": "+5",
             "suffixes": [
                 "92"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Georgetown"
@@ -34999,7 +35665,11 @@
             "root": "+6",
             "suffixes": [
                 "70"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Dili"
@@ -35207,7 +35877,11 @@
             "root": "+8",
             "suffixes": [
                 "4"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Hanoi"
@@ -35420,7 +36094,11 @@
             "root": "+5",
             "suffixes": [
                 "98"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Montevideo"
@@ -35635,7 +36313,11 @@
             "suffixes": [
                 "906698",
                 "79"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Vatican City"
@@ -35844,7 +36526,11 @@
             "root": "+8",
             "suffixes": [
                 "52"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "City of Victoria"
@@ -36041,7 +36727,11 @@
             "root": "+4",
             "suffixes": [
                 "3"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Vienna"
@@ -36258,7 +36948,11 @@
             "root": "+1",
             "suffixes": [
                 "268"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Saint John's"
@@ -36460,7 +37154,11 @@
             "root": "+9",
             "suffixes": [
                 "93"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Ashgabat"
@@ -36672,7 +37370,11 @@
             "root": "+2",
             "suffixes": [
                 "58"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Maputo"
@@ -36891,7 +37593,11 @@
             "root": "+5",
             "suffixes": [
                 "07"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Panama City"
@@ -37098,7 +37804,11 @@
             "root": "+6",
             "suffixes": [
                 "91"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Palikir"
@@ -37309,7 +38019,11 @@
             "root": "+3",
             "suffixes": [
                 "53"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Dublin"
@@ -37524,7 +38238,11 @@
             "root": "+5",
             "suffixes": [
                 "99"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Willemstad"
@@ -37719,7 +38437,11 @@
             "root": "+5",
             "suffixes": [
                 "94"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Cayenne"
@@ -37933,7 +38655,11 @@
             "root": "+4",
             "suffixes": [
                 "7"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Oslo"
@@ -38149,7 +38875,11 @@
             "root": "+3",
             "suffixes": [
                 "5818"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Mariehamn"
@@ -38352,7 +39082,11 @@
             "root": "+2",
             "suffixes": [
                 "36"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Bangui"
@@ -38564,7 +39298,11 @@
             "root": "+2",
             "suffixes": [
                 "26"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Ouagadougou"
@@ -38781,7 +39519,11 @@
             "root": "+2",
             "suffixes": [
                 "91"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Asmara"
@@ -38995,7 +39737,11 @@
             "root": "+2",
             "suffixes": [
                 "55"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Dodoma"
@@ -39211,7 +39957,11 @@
             "root": "+8",
             "suffixes": [
                 "2"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Seoul"
@@ -39424,7 +40174,11 @@
             "root": "+9",
             "suffixes": [
                 "62"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Amman"
@@ -39638,7 +40392,11 @@
             "root": "+2",
             "suffixes": [
                 "22"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Nouakchott"
@@ -39847,7 +40605,11 @@
             "root": "+3",
             "suffixes": [
                 "70"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Vilnius"
@@ -40059,7 +40821,11 @@
             "root": "+2",
             "suffixes": [
                 "68"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Washington DC"
@@ -40245,7 +41011,11 @@
             "root": "+4",
             "suffixes": [
                 "21"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Bratislava"
@@ -40459,7 +41229,11 @@
             "root": "+2",
             "suffixes": [
                 "44"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Luanda"
@@ -40674,7 +41448,11 @@
             "suffixes": [
                 "6",
                 "7"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Nur-Sultan"
@@ -40895,7 +41673,11 @@
             "root": "+3",
             "suffixes": [
                 "73"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Chișinău"
@@ -41107,7 +41889,11 @@
             "root": "+2",
             "suffixes": [
                 "23"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Bamako"
@@ -41318,7 +42104,11 @@
             "root": "+5",
             "suffixes": [
                 "00"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Stanley"
@@ -41516,7 +42306,11 @@
             "root": "+3",
             "suffixes": [
                 "74"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Yerevan"
@@ -41734,7 +42528,11 @@
             "root": "+6",
             "suffixes": [
                 "85"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Apia"
@@ -41949,7 +42747,11 @@
             "root": "+4",
             "suffixes": [
                 "4"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Saint Helier"
@@ -42155,7 +42957,11 @@
             "root": "+8",
             "suffixes": [
                 "1"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Tokyo"
@@ -42374,7 +43180,11 @@
             "root": "+5",
             "suffixes": [
                 "91"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Sucre"
@@ -42593,7 +43403,11 @@
             "root": "+5",
             "suffixes": [
                 "6"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Santiago"
@@ -43122,7 +43936,11 @@
                 "984",
                 "985",
                 "989"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Washington, D.C."
@@ -43343,7 +44161,11 @@
             "root": "+1",
             "suffixes": [
                 "784"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Kingstown"
@@ -43541,7 +44363,11 @@
             "root": "+1",
             "suffixes": [
                 "441"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Hamilton"
@@ -43753,7 +44579,11 @@
             "root": "+2",
             "suffixes": [
                 "48"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Victoria"
@@ -43958,7 +44788,11 @@
             "root": "+2",
             "suffixes": [
                 "46"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Diego Garcia"
@@ -44147,7 +44981,11 @@
             "root": "+5",
             "suffixes": [
                 "02"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Guatemala City"
@@ -44358,7 +45196,11 @@
             "root": "+5",
             "suffixes": [
                 "93"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Quito"
@@ -44569,7 +45411,11 @@
             "root": "+5",
             "suffixes": [
                 "96"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Fort-de-France"
@@ -44773,7 +45619,11 @@
             "root": "+9",
             "suffixes": [
                 "92"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Dushanbe"
@@ -44993,7 +45843,11 @@
             "root": "+3",
             "suffixes": [
                 "56"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Valletta"
@@ -45201,7 +46055,11 @@
             "root": "+2",
             "suffixes": [
                 "20"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Banjul"
@@ -45406,7 +46264,11 @@
             "root": "+2",
             "suffixes": [
                 "34"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Abuja"
@@ -45624,7 +46486,11 @@
             "root": "+1",
             "suffixes": [
                 "242"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Nassau"
@@ -45822,7 +46688,11 @@
             "root": "+3",
             "suffixes": [
                 "83"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Pristina"
@@ -46026,7 +46896,11 @@
             "root": "+9",
             "suffixes": [
                 "65"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Kuwait City"
@@ -46234,7 +47108,11 @@
             "root": "+9",
             "suffixes": [
                 "60"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Malé"
@@ -46442,7 +47320,11 @@
             "root": "+2",
             "suffixes": [
                 "11"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Juba"
@@ -46652,7 +47534,11 @@
             "root": "+9",
             "suffixes": [
                 "8"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Tehran"
@@ -46865,7 +47751,11 @@
             "root": "+3",
             "suffixes": [
                 "55"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Tirana"
@@ -47075,7 +47965,11 @@
             "root": "+5",
             "suffixes": [
                 "5"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Brasília"
@@ -47299,7 +48193,11 @@
             "root": "+3",
             "suffixes": [
                 "81"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Belgrade"
@@ -47526,7 +48424,11 @@
             "root": "+5",
             "suffixes": [
                 "01"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Belmopan"
@@ -47733,7 +48635,11 @@
             "root": "+9",
             "suffixes": [
                 "5"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Naypyidaw"
@@ -47952,7 +48858,11 @@
             "root": "+9",
             "suffixes": [
                 "75"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Thimphu"
@@ -48158,7 +49068,11 @@
             "root": "+5",
             "suffixes": [
                 "8"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Caracas"
@@ -48371,7 +49285,11 @@
             "root": "+2",
             "suffixes": [
                 "31"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Monrovia"
@@ -48586,7 +49504,11 @@
             "root": "+1",
             "suffixes": [
                 "876"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Kingston"
@@ -48788,7 +49710,11 @@
             "root": "+4",
             "suffixes": [
                 "8"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Warsaw"
@@ -49004,7 +49930,11 @@
             "root": "+1",
             "suffixes": [
                 "345"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "George Town"
@@ -49205,7 +50135,11 @@
             "root": "+6",
             "suffixes": [
                 "73"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Bandar Seri Begawan"
@@ -49421,7 +50355,11 @@
             "root": "+2",
             "suffixes": [
                 "69"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Moroni"
@@ -49636,7 +50574,11 @@
             "root": "+1",
             "suffixes": [
                 "671"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Hagåtña"
@@ -49840,7 +50782,11 @@
             "root": "+6",
             "suffixes": [
                 "76"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Nuku'alofa"
@@ -50050,7 +50996,11 @@
             "root": "+6",
             "suffixes": [
                 "86"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "South Tarawa"
@@ -50255,7 +51205,11 @@
             "root": "+2",
             "suffixes": [
                 "33"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Accra"
@@ -50465,7 +51419,11 @@
             "root": "+2",
             "suffixes": [
                 "35"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "N'Djamena"
@@ -50735,7 +51693,11 @@
             "root": "+2",
             "suffixes": [
                 "63"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Harare"
@@ -50957,7 +51919,11 @@
             "root": "+5",
             "suffixes": [
                 "90"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Marigot"
@@ -51159,7 +52125,11 @@
             "root": "+9",
             "suffixes": [
                 "76"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Ulan Bator"
@@ -51369,7 +52339,11 @@
             "root": "+3",
             "suffixes": [
                 "51"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Lisbon"
@@ -51585,7 +52559,11 @@
             "root": "+1",
             "suffixes": [
                 "684"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Pago Pago"
@@ -51791,7 +52769,11 @@
             "root": "+2",
             "suffixes": [
                 "42"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Brazzaville"
@@ -52008,7 +52990,11 @@
             "root": "+3",
             "suffixes": [
                 "2"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Brussels"
@@ -52233,7 +53219,11 @@
             "root": "+9",
             "suffixes": [
                 "72"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Jerusalem"
@@ -52456,7 +53446,11 @@
             "root": "+6",
             "suffixes": [
                 "4"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Wellington"
@@ -52665,7 +53659,11 @@
             "root": "+5",
             "suffixes": [
                 "05"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "Managua"
@@ -52875,7 +53873,11 @@
             "root": "+1",
             "suffixes": [
                 "264"
-            ]
+            ],
+            "phoneLength": {
+                "start": 7,
+                "end": 10
+            }
         },
         "capital": [
             "The Valley"

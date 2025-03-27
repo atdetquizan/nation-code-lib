@@ -1,57 +1,13 @@
-export interface CountryName {
-  common: string;
-  official: string;
-  nativeName?: { [key: string]: { official: string; common: string } };
-}
-
-export interface Currencies {
-  [key: string]: {
-    name: string;
-    symbol: string;
-  };
-}
-
-export interface Idd {
-  root?: string;
-  suffixes?: string[];
-}
-
-export interface CountryTranslations {
-  [key: string]: {
-    official: string;
-    common: string;
-  } | undefined;
-}
-
-export interface CountryDemonyms {
-  eng: { f: string; m: string };
-  fra?: { f: string; m: string };
-}
-
-export interface CountryCapitalInfo {
-  latlng?: number[];
-}
-
-export interface CountryPostalCode {
-  format: string;
-  regex?: string;
-}
-
-export interface Flag {
-  png: string;
-  svg: string;
-  alt?: string;
-}
-
-export interface CountryCoatOfArms {
-  png?: string;
-  svg?: string;
-}
-
-export interface CountryMaps {
-  googleMaps: string;
-  openStreetMaps: string;
-}
+import { CountryName } from './country-name.interface';
+import { Currencies } from './currencies.interface';
+import { Idd } from './idd.interface';
+import { CountryTranslations } from './translations.interface';
+import { CountryDemonyms } from './demonyms.interface';
+import { CountryCapitalInfo } from './capital-info.interface';
+import { CountryPostalCode } from './postal-code.interface';
+import { Flag } from './flag.interface';
+import { CountryCoatOfArms } from './coat-of-arms.interface';
+import { CountryMaps } from './maps.interface';
 
 export interface Country {
   name: CountryName;

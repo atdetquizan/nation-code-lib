@@ -1,5 +1,5 @@
-import { Country, SimplifiedCountry } from '../interfaces';
-import countriesData from '../data/countries.json';
+import { Country, SimplifiedCountry } from "../interfaces";
+import countriesData from "../data/countries.json";
 
 /**
  * Class that provides methods to access and filter country information
@@ -30,9 +30,7 @@ export class NationAPI {
   static getCountryByCode(code: string): Country | undefined {
     return this.countries.find(
       (country) =>
-        country.cca2 === code ||
-        country.cca3 === code ||
-        country.ccn3 === code
+        country.cca2 === code || country.cca3 === code || country.ccn3 === code
     );
   }
 
@@ -82,7 +80,7 @@ export class NationAPI {
   static getPhoneCode(code: string): string | undefined {
     const country = this.getCountryByCode(code);
     if (!country?.idd.root || !country.idd.suffixes) return undefined;
-    return `${country.idd.root}${country.idd.suffixes.join('')}`;
+    return `${country.idd.root}${country.idd.suffixes.join("")}`;
   }
 
   /**
@@ -94,7 +92,8 @@ export class NationAPI {
     return this.countries.filter((country) => {
       if (!country.languages) return false;
       return Object.keys(country.languages).some(
-        (key) => country.languages![key].toLowerCase() === language.toLowerCase()
+        (key) =>
+          country.languages![key].toLowerCase() === language.toLowerCase()
       );
     });
   }
@@ -120,27 +119,29 @@ export class NationAPI {
    */
   static getSimplifiedCountries(lang?: string): SimplifiedCountry[] {
     return this.countries
-      .map(country => {
+      .map((country) => {
         const translation = lang && country.translations?.[lang];
         const officialName = translation?.official ?? country.name.official;
         const commonName = translation?.common ?? country.name.common;
-
-        const phoneCode = country.idd.root && country.idd.suffixes
-          ? `${country.idd.root}${country.idd.suffixes[0]}`
-          : undefined;
+        const phoneLength = country.idd.phoneLength;
+        const phoneCode =
+          country.idd.root && country.idd.suffixes
+            ? `${country.idd.root}${country.idd.suffixes[0]}`
+            : undefined;
 
         return {
           code: country.cca2,
           name: {
             common: commonName,
-            official: officialName
+            official: officialName,
           },
           flag: {
             png: country.flags.png,
             svg: country.flags.svg,
-            emoji: country.flag // Adding the emoji flag code
+            emoji: country.flag, // Adding the emoji flag code
           },
-          phoneCode
+          phoneCode,
+          phoneLength,
         };
       })
       .sort((a, b) => a.name.common.localeCompare(b.name.common));

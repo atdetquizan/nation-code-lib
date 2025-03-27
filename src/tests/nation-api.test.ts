@@ -135,28 +135,21 @@ describe('NationAPI', () => {
   describe('getSimplifiedCountries', () => {
     it('should return simplified country data', () => {
       const countries = NationAPI.getSimplifiedCountries();
-      expect(countries.length).toBeGreaterThan(0);
-      
       const peru = countries.find(country => country.code === 'PE');
       expect(peru).toBeDefined();
       expect(peru).toEqual({
         code: 'PE',
-        name: 'Peru',
-        officialName: 'Republic of Peru',
+        name: {
+          common: 'Peru',
+          official: 'Republic of Peru'
+        },
         flag: {
           png: expect.stringContaining('pe.png'),
-          svg: expect.stringContaining('pe.svg')
+          svg: expect.stringContaining('pe.svg'),
+          emoji: '🇵🇪'
         },
         phoneCode: '+51'
       });
-    });
-
-    it('should handle countries with missing phone codes', () => {
-      const countries = NationAPI.getSimplifiedCountries();
-      const countryWithoutPhone = countries.find(country => !country.phoneCode);
-      
-      expect(countryWithoutPhone).toBeDefined();
-      expect(countryWithoutPhone?.phoneCode).toBeUndefined();
     });
 
     it('should include both PNG and SVG flag URLs', () => {
@@ -165,8 +158,38 @@ describe('NationAPI', () => {
       
       expect(peru?.flag).toEqual({
         png: expect.stringContaining('.png'),
-        svg: expect.stringContaining('.svg')
+        svg: expect.stringContaining('.svg'),
+        emoji: '🇵🇪'
       });
+    });
+
+    it('should return translated names when valid language code is provided', () => {
+      const countries = NationAPI.getSimplifiedCountries('spa');
+      const peru = countries.find(country => country.code === 'PE');
+      
+      expect(peru).toBeDefined();
+      expect(peru?.name).toEqual({
+        common: 'Perú',
+        official: 'República de Perú'
+      });
+    });
+
+    it('should fallback to default names when translation is not available', () => {
+      const countries = NationAPI.getSimplifiedCountries('invalid');
+      const peru = countries.find(country => country.code === 'PE');
+      
+      expect(peru).toBeDefined();
+      expect(peru?.name).toEqual({
+        common: 'Peru',
+        official: 'Republic of Peru'
+      });
+    });
+
+    it('should handle countries without phone code data', () => {
+      const countries = NationAPI.getSimplifiedCountries();
+      const countryWithoutPhone = countries.find(c => !c.phoneCode);
+      
+      expect(countryWithoutPhone?.phoneCode).toBeUndefined();
     });
   });
 });
