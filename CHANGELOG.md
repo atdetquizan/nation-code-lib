@@ -1,3 +1,11 @@
+## [1.1.14](https://github.com/atdetquizan/nation-code-lib/compare/v1.1.13...v1.1.14) (2025-03-27)
+
+
+### Bug Fixes
+
+* test ([41048ec](https://github.com/atdetquizan/nation-code-lib/commit/41048ec6fd915b39b6b739a6b91cbd437ee25083))
+* test ([0f09776](https://github.com/atdetquizan/nation-code-lib/commit/0f09776c2c9455e089c3ac6595378ca8a642a84f))
+
 ## [1.1.13](https://github.com/atdetquizan/nation-code-lib/compare/v1.1.12...v1.1.13) (2025-03-27)
 
 
