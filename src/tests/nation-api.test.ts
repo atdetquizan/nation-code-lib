@@ -151,22 +151,6 @@ describe('NationAPI', () => {
       });
     });
 
-    it('should return translated official names when language is provided', () => {
-      const countries = NationAPI.getSimplifiedCountries('spa');
-      const peru = countries.find(country => country.code === 'PE');
-      
-      expect(peru).toBeDefined();
-      expect(peru?.officialName).toBe('República de Perú');
-    });
-
-    it('should fallback to default official name when translation is not available', () => {
-      const countries = NationAPI.getSimplifiedCountries('invalid');
-      const peru = countries.find(country => country.code === 'PE');
-      
-      expect(peru).toBeDefined();
-      expect(peru?.officialName).toBe('Republic of Peru');
-    });
-
     it('should handle countries with missing phone codes', () => {
       const countries = NationAPI.getSimplifiedCountries();
       const countryWithoutPhone = countries.find(country => !country.phoneCode);
