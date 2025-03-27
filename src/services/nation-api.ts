@@ -116,28 +116,30 @@ export class NationAPI {
   /**
    * Returns a simplified version of countries data
    * @param {string} [lang] - Optional language code for official name translation (e.g., 'spa' for Spanish)
-   * @returns {SimplifiedCountry[]} Array of simplified country data
+   * @returns {SimplifiedCountry[]} Array of simplified country data, sorted alphabetically by name
    */
   static getSimplifiedCountries(lang?: string): SimplifiedCountry[] {
-    return this.countries.map(country => {
-      const officialName = lang && country.translations?.[lang]?.official 
-        ? country.translations[lang].official 
-        : country.name.official;
+    return this.countries
+      .map(country => {
+        const officialName = lang && country.translations?.[lang]?.official 
+          ? country.translations[lang].official 
+          : country.name.official;
 
-      const phoneCode = country.idd.root && country.idd.suffixes
-        ? `${country.idd.root}${country.idd.suffixes[0]}`
-        : undefined;
+        const phoneCode = country.idd.root && country.idd.suffixes
+          ? `${country.idd.root}${country.idd.suffixes.join('')}`
+          : undefined;
 
-      return {
-        code: country.cca2,
-        name: country.name.common,
-        officialName,
-        flag: {
-          png: country.flags.png,
-          svg: country.flags.svg
-        },
-        phoneCode
-      };
-    });
+        return {
+          code: country.cca2,
+          name: country.name.common,
+          officialName,
+          flag: {
+            png: country.flags.png,
+            svg: country.flags.svg
+          },
+          phoneCode
+        };
+      })
+      .sort((a, b) => a.name.localeCompare(b.name)); // Sort alphabetically by name
   }
 }
