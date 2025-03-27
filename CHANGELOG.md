@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/atdetquizan/nation-code-lib/compare/v1.1.15...v1.2.0) (2025-03-27)
+
+
+### Features
+
+* mejoras de CI ([cce3d5d](https://github.com/atdetquizan/nation-code-lib/commit/cce3d5d46772bf7302dc72d9db7df0d350bda7db))
+
 ## [1.1.15](https://github.com/atdetquizan/nation-code-lib/compare/v1.1.14...v1.1.15) (2025-03-27)
 
 
