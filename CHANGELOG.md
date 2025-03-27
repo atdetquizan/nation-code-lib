@@ -1,3 +1,11 @@
+# [1.6.0](https://github.com/atdetquizan/nation-code-lib/compare/v1.5.0...v1.6.0) (2025-03-27)
+
+
+### Features
+
+* update simplified countries ([bfd3522](https://github.com/atdetquizan/nation-code-lib/commit/bfd35228da3a0f0185535c64acdf05cde856fd5b))
+* update simplified countries ([4e696ce](https://github.com/atdetquizan/nation-code-lib/commit/4e696ce4bc181b6c16b5680e5f1799c19357822d))
+
 # [1.5.0](https://github.com/atdetquizan/nation-code-lib/compare/v1.4.0...v1.5.0) (2025-03-27)
 
 
