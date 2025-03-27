@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/atdetquizan/nation-code-lib/compare/v1.6.0...v1.7.0) (2025-03-27)
+
+
+### Features
+
+* mejoras de flags ([7b40218](https://github.com/atdetquizan/nation-code-lib/commit/7b402181d44cac9477fdbf82730b3e1145679180))
+
 # [1.6.0](https://github.com/atdetquizan/nation-code-lib/compare/v1.5.0...v1.6.0) (2025-03-27)
 
 
