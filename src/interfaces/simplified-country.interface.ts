@@ -1,4 +1,4 @@
-export interface MappedCountry {
+export interface SimplifiedCountry {
   code: string;
   name: string;
   officialName: string;

@@ -1,4 +1,4 @@
-import { Country, MappedCountry } from '../interfaces';
+import { Country, SimplifiedCountry } from '../interfaces';
 import countriesData from '../data/countries.json';
 
 /**
@@ -116,9 +116,9 @@ export class NationAPI {
   /**
    * Returns a simplified version of countries data
    * @param {string} [lang] - Optional language code for official name translation (e.g., 'spa' for Spanish)
-   * @returns {MappedCountry[]} Array of simplified country data
+   * @returns {SimplifiedCountry[]} Array of simplified country data
    */
-  static getSimplifiedCountries(lang?: string): MappedCountry[] {
+  static getSimplifiedCountries(lang?: string): SimplifiedCountry[] {
     return this.countries.map(country => {
       const officialName = lang && country.translations?.[lang]?.official 
         ? country.translations[lang].official 

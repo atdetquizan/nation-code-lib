@@ -1,2 +1,2 @@
 export * from './country.interface';
-export * from './mapped-country.interface';
+export * from './simplified-country.interface';
