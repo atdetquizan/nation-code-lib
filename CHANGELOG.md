@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/atdetquizan/nation-code-lib/compare/v1.4.0...v1.5.0) (2025-03-27)
+
+
+### Features
+
+* simplified countries sort ([57cabec](https://github.com/atdetquizan/nation-code-lib/commit/57cabec2144595c7e2c657afd31be62428901a8d))
+
 # [1.4.0](https://github.com/atdetquizan/nation-code-lib/compare/v1.3.0...v1.4.0) (2025-03-27)
 
 
