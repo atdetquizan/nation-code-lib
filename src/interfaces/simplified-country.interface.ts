@@ -7,6 +7,7 @@ export interface SimplifiedCountry {
   flag: {
     png: string;
     svg: string;
+    emoji: string; // Added emoji flag field
   };
   phoneCode: string | undefined;
 }

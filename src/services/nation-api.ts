@@ -137,11 +137,12 @@ export class NationAPI {
           },
           flag: {
             png: country.flags.png,
-            svg: country.flags.svg
+            svg: country.flags.svg,
+            emoji: country.flag // Adding the emoji flag code
           },
           phoneCode
         };
       })
-      .sort((a, b) => a.name.common.localeCompare(b.name.common)); // Sort alphabetically by common name
+      .sort((a, b) => a.name.common.localeCompare(b.name.common));
   }
 }
