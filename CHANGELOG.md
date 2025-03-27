@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/atdetquizan/nation-code-lib/compare/v1.2.0...v1.3.0) (2025-03-27)
+
+
+### Features
+
+* funcion para obtener datos simplificados ([c2be98b](https://github.com/atdetquizan/nation-code-lib/commit/c2be98b0ae09f67cd1f271c0e3901f31fe2283fc))
+
 # [1.2.0](https://github.com/atdetquizan/nation-code-lib/compare/v1.1.15...v1.2.0) (2025-03-27)
 
 
