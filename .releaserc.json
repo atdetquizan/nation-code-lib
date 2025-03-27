@@ -6,7 +6,13 @@
         "@semantic-release/commit-analyzer",
         "@semantic-release/release-notes-generator",
         "@semantic-release/changelog",
-        "@semantic-release/github",
+        ["@semantic-release/github", 
+        {
+            "assets": [
+              { "path": "package.json", "label": "Actualización de versión" },
+              { "path": "package-lock.json", "label": "Actualización de versión" }
+            ]
+          }],
         "@semantic-release/npm",
         [
             "@semantic-release/git",
