@@ -1,3 +1,10 @@
+## [1.9.2](https://github.com/atdetquizan/nation-code-lib/compare/v1.9.1...v1.9.2) (2025-03-31)
+
+
+### Bug Fixes
+
+* correcion de permisos para action ([23d97b0](https://github.com/atdetquizan/nation-code-lib/commit/23d97b0680ee92c84fba09ba6c13ead24d69623f))
+
 ## [1.9.1](https://github.com/atdetquizan/nation-code-lib/compare/v1.9.0...v1.9.1) (2025-03-31)
 
 
