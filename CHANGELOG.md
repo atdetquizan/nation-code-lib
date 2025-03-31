@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/atdetquizan/nation-code-lib/compare/v1.9.2...v1.10.0) (2025-03-31)
+
+
+### Features
+
+* meotodo para obtener IDD ([936ef8c](https://github.com/atdetquizan/nation-code-lib/commit/936ef8c66a4a6b7ce8a49f0fa127f14f7fcf088b))
+
 ## [1.9.2](https://github.com/atdetquizan/nation-code-lib/compare/v1.9.1...v1.9.2) (2025-03-31)
 
 
