@@ -197,6 +197,31 @@ describe('NationAPI', () => {
     });
   });
 
+  describe('getCountryIdd', () => {
+    it('should return IDD information for valid country code', () => {
+      const idd = NationAPI.getCountryIdd('PE');
+      expect(idd).toBeDefined();
+      expect(idd).toEqual({
+        root: '+5',
+        suffixes: ['1'],
+        phoneLength: {
+          start: 7,
+          end: 10
+        }
+      });
+    });
+
+    it('should return undefined for invalid country code', () => {
+      const idd = NationAPI.getCountryIdd('XX');
+      expect(idd).toBeUndefined();
+    });
+
+    it('should return undefined when country has no IDD data', () => {
+      const idd = NationAPI.getCountryIdd('AQ');
+      expect(idd).toBeUndefined();
+    });
+  });
+
   describe('getCountryFlag', () => {
     it('should return flag information when valid cca2 code is provided', () => {
       const flag = NationAPI.getCountryFlag('PE');

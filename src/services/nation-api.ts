@@ -80,7 +80,22 @@ export class NationAPI {
   static getPhoneCode(code: string): string | undefined {
     const country = this.getCountryByCode(code);
     if (!country?.idd.root || !country.idd.suffixes) return undefined;
-    return `${country.idd.root}${country.idd.suffixes.join("")}`;
+    return `${country.idd.root}${country.idd.suffixes[0]}`;  
+  }
+
+  /**
+   * Gets the complete IDD (International Direct Dialing) information for a country
+   * @param {string} code - The country code (cca2, cca3, or ccn3)
+   * @returns {object | undefined} The IDD information if found, undefined otherwise
+   */
+  static getCountryIdd(code: string): { root: string; suffixes: string[]; phoneLength?: { start: number; end: number; } } | undefined {
+    const country = this.getCountryByCode(code);
+    if (!country?.idd.root || !country.idd.suffixes) return undefined;
+    return {
+      root: country.idd.root,
+      suffixes: country.idd.suffixes,
+      phoneLength: country.idd.phoneLength
+    }
   }
 
   /**
