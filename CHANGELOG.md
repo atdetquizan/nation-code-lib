@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/atdetquizan/nation-code-lib/compare/v1.8.0...v1.9.0) (2025-03-31)
+
+
+### Features
+
+* configure page github ([a157e84](https://github.com/atdetquizan/nation-code-lib/commit/a157e849601c33d765fea7c9472ac22fb6b64a91))
+
 # [1.8.0](https://github.com/atdetquizan/nation-code-lib/compare/v1.7.0...v1.8.0) (2025-03-27)
 
 
