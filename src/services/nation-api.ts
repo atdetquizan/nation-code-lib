@@ -113,6 +113,21 @@ export class NationAPI {
   }
 
   /**
+   * Gets the flag information for a specific country
+   * @param {string} code - The country code (cca2, cca3, or ccn3)
+   * @returns {{ png: string; svg: string; emoji: string; } | undefined} The flag information if found, undefined otherwise
+   */
+  static getCountryFlag(code: string): { png: string; svg: string; emoji: string; } | undefined {
+    const country = this.getCountryByCode(code);
+    if (!country) return undefined;
+    return {
+      png: country.flags.png,
+      svg: country.flags.svg,
+      emoji: country.flag
+    };
+  }
+
+  /**
    * Returns a simplified version of countries data
    * @param {string} [lang] - Optional language code for official name translation (e.g., 'spa' for Spanish)
    * @returns {SimplifiedCountry[]} Array of simplified country data, sorted alphabetically by name

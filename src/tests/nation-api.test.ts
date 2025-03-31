@@ -148,7 +148,11 @@ describe('NationAPI', () => {
           svg: expect.stringContaining('pe.svg'),
           emoji: '🇵🇪'
         },
-        phoneCode: '+51'
+        phoneCode: '+51',
+        phoneLength: {
+          start: 7,
+          end: 10
+        }
       });
     });
 
@@ -190,6 +194,37 @@ describe('NationAPI', () => {
       const countryWithoutPhone = countries.find(c => !c.phoneCode);
       
       expect(countryWithoutPhone?.phoneCode).toBeUndefined();
+    });
+  });
+
+  describe('getCountryFlag', () => {
+    it('should return flag information when valid cca2 code is provided', () => {
+      const flag = NationAPI.getCountryFlag('PE');
+      expect(flag).toBeDefined();
+      expect(flag?.png).toContain('.png');
+      expect(flag?.svg).toContain('.svg');
+      expect(flag?.emoji).toBe('🇵🇪');
+    });
+
+    it('should return flag information when valid cca3 code is provided', () => {
+      const flag = NationAPI.getCountryFlag('PER');
+      expect(flag).toBeDefined();
+      expect(flag?.png).toContain('.png');
+      expect(flag?.svg).toContain('.svg');
+      expect(flag?.emoji).toBe('🇵🇪');
+    });
+
+    it('should return flag information when valid ccn3 code is provided', () => {
+      const flag = NationAPI.getCountryFlag('604');
+      expect(flag).toBeDefined();
+      expect(flag?.png).toContain('.png');
+      expect(flag?.svg).toContain('.svg');
+      expect(flag?.emoji).toBe('🇵🇪');
+    });
+
+    it('should return undefined for invalid country code', () => {
+      const flag = NationAPI.getCountryFlag('XX');
+      expect(flag).toBeUndefined();
     });
   });
 });
